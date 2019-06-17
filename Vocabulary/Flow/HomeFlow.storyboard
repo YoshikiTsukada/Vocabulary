@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rzI-7G-r55">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+    </dependencies>
+    <scenes>
+        <!--HomeVC-->
+        <scene sceneID="VgS-h8-7cz">
+            <objects>
+                <viewController id="rzI-7G-r55" customClass="HomeVC" customModule="Vocabulary" customModuleProvider="target" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="gTt-l0-ij4" kind="show" identifier="showHomeVC" id="w6D-O3-57c"/>
+                        <segue destination="xlZ-gm-su2" kind="show" identifier="showWordStudyVC" id="MWf-TN-pYi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NHn-OM-8cU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="167"/>
+        </scene>
+        <!--HomeFlow-->
+        <scene sceneID="ThN-U3-vGh">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HomeFlow" id="gTt-l0-ij4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fGi-t0-mI1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="641" y="83"/>
+        </scene>
+        <!--Word StudyVC-->
+        <scene sceneID="194-Fu-AcU">
+            <objects>
+                <viewController id="xlZ-gm-su2" customClass="WordStudyVC" customModule="Vocabulary" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ePf-Wk-nkk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1204" y="167"/>
+        </scene>
+    </scenes>
+</document>
